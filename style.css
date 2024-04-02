@@ -1,0 +1,79 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+a,
+p {
+    font-family: "Manrope", sans-serif;
+}
+
+/* ----------------------- */
+.background-image-1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./Images/yellow-veg.jpg');
+}
+
+.background-image-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./Images/green-veg.jpg');
+}
+
+.bg-fruit-image {
+    background-image: url('./Images/mangoavocado.jpeg');
+}
+
+.bg-olivetree {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./Images/olivetree.jpg);
+}
+
+.bg-costumer {
+    background-image: url('./Images/backgroundiimage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.style-text {
+    font-family: "Covered By Your Grace", cursive !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+.bg-apple {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./Images/applee.png');
+}
+
+.bg-barley {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./Images/barley.jpg');
+}
+
+
+.bg-olivestart {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./aboutpageimg/olivestart.jpeg');
+}
+
+.bg-wheatfield {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./servicespageimg/wheatfield.jpg');
+}
+
