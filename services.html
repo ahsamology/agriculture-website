@@ -365,9 +365,9 @@
         </div>
         <!-- ---------------------------------Image Section End------------------------- -->
 
-        <div class="flex grid-cols-2 mx-10 my-10">
+        <div class="flex flex-col max-lg:mx-4 lg:flex-row gap-10 mx-auto my-10 max-w-[1200px]">
             <!-- ----------------------------- categories sectin start------------ -->
-            <div>
+            <div class="w-full lg:w-1/4 ">
                 <div class="bg-[#F8F7F0] shadow-md rounded px-8 pt-6 pb-8 mb-4">
                     <p class="text-2xl font-bold mb-5">Categories</p>
                     <ul class="space-y-4">
@@ -383,22 +383,23 @@
                     </ul>
                 </div>
                 <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                    <div class="background-image h-64 w-full bg-blue-500 flex items-end justify-center p-4"
+                    <div class="background-image h-full w-full bg-blue-500 flex items-end justify-center p-4"
                         style="background-image: url('./servicespageimg/greenbg.jpeg');">
-                        <div class="items-center">
+                        <div class="flex flex-col items-center">
                             <div>
-                                <h1 class="text-white text-xl font-bold bg-opacity-75 rounded p-2">Need Help?</h1>
-                                <p class="text-white">Speak with a human to filling out a
+                                <h1 class="text-center text-white text-xl font-bold bg-opacity-75 rounded p-2">Need
+                                    Help?</h1>
+                                <p class="text-center text-white">Speak with a human to filling out a
                                     form? call corporate office and we
                                     will connect you with a team
                                     member help.</p>
-                                <p class="text-white">+92 301 5236300</p>
+                                <p class="text-white text-center style-text text-4xl my-4">+92 301 5236300</p>
                             </div>
 
                             <button
-                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                                class="bg-[#EEC044] hover:bg-blue-700 text-sm text-white font-bold py-4 px-6 rounded focus:outline-none focus:shadow-outline"
                                 type="button">
-                                Submit
+                                Start Shopping Now
                             </button>
                         </div>
                     </div>
@@ -406,8 +407,8 @@
             </div>
             <!-- ----------------------------- categories sectin end------------ -->
             <!-- ---------------------------------Agricultural products start------------------------- -->
-            <div>
-                <div class="py-20">
+            <div class="w-full lg:w-2/3 ">
+                <div class="py-20 ">
                     <div class=" flex ">
                         <div class="relative mx-auto">
                             <img src="./servicespageimg/ricetransplant.png"
@@ -421,7 +422,8 @@
                 <div class="flex">
                     <div class="relative ">
                         <p class="text-4xl font-bold pb-5">Agriculture Products</p>
-                        <p class=" pb-5">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est
+                        <p class=" pb-5 text-justify">Lorem ipsum is simply free text used by copytyping refreshing.
+                            Neque porro est
                             qui
                             dolorem ipsum quia
                             quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes
@@ -433,7 +435,8 @@
                             printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever
                             since
                             the 1500s.</p>
-                        <p>It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design
+                        <p class="text-justify">It has survived not only five centuries. Lorem Ipsum is simply dummy
+                            text of the new design
                             printng
                             and
                             type setting Ipsum take a look at our round. When an unknown printer took a galley of type
@@ -444,22 +447,25 @@
                             electronic typesetting.</p>
                     </div>
                 </div>
-                <div class=" mx-auto px-4">
-                    <div class="flex ">
-                        <div class=" px-2 justify-center items-center">
-                            <div class="bg-white shadow rounded-lg">
+                <div class=" mx-auto px-4 py-10">
+                    <div class="flex flex-col lg:flex-row ">
+                        <div class="my-2 px-2 justify-center items-center">
+                            <div class="bg-white  rounded-lg">
                                 <img src="./servicespageimg/ricehusk.png" alt="Description"
                                     class="w-full object-cover h-48 rounded-t-lg">
                                 <div class="p-4">
-                                    <p class="text-gray-800 text-sm">Our Benefits</p>
+                                    <p class="text-blaack mb-3 text-2xl font-bold">Our Benefits</p>
                                     <div></div>
-                                    <p class="">Suspe ndisse suscipit sagittis leo.
+                                    <p class="max-w-96 line-clamp-4">Suspe ndisse suscipit sagittis leo.Suspe ndisse
+                                        suscipit
+                                        sagittis leo.Suspe ndisse suscipit sagittis leo.Suspe ndisse suscipit sagittis
+                                        leo.Suspe ndisse suscipit sagittis leo.Suspe ndisse suscipit sagittis leo.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class=" px-2">
-                            <div class="bg-white shadow rounded-lg">
+                        <div class="my-2 px-2">
+                            <div class="bg-white  rounded-lg">
                                 <img src="./servicespageimg/tomatoescollectinman.png" alt="Description"
                                     class="w-full object-cover h-48 rounded-t-lg">
                                 <div class="p-4 font-bold">
@@ -473,7 +479,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex items-center justify-between bg-[#F8F7F0] text-black font-bold mt-10 px-4 py-2">
+                <div class="flex items-center justify-between bg-[#F8F7F0] text-black font-bold  px-4 ">
                     <div>
                         <p>World’s hottest destinations for vegans</p>
                     </div>
@@ -487,8 +493,11 @@
                         <p>Let’s grow naturaly and live naturaly</p>
                     </div>
                     <div class="ml-4">
-                        <img src="./servicespageimg/arrowsimpleicon.png" alt="Descriptive Text"
-                            class="h-[60px] w-[60px] object-cover rounded">
+                        <!-- <img src="./servicespageimg/arrowsimpleicon.png" alt="Descriptive Text"
+                            class="h-[60px] w-[60px] object-cover rounded"> -->
+                        <div class="bg-[#C5CE38] p-2 rounded-lg">
+                            <img src="/Images/chevron.png" alt="" class="h-10 w-10" style="filter: invert(1);">
+                        </div>
                     </div>
                 </div>
                 <div class="my-8">
@@ -496,7 +505,7 @@
                         ullamcorper vulputate vitae sodales commodo nisl. Nulla facilisi. Pellentesque est metus many of
                         some form.</p>
                 </div>
-                <div class="flex items-center justify-between bg-[#F8F7F0] text-black font-bold mt-2 mb-10 px-4 py-2">
+                <div class="flex items-center justify-between bg-[#F8F7F0] text-black font-bold mt-2 mb-4 px-4 py-2">
                     <div>
                         <p>Best vegetables for your healthy hair</p>
                     </div>
