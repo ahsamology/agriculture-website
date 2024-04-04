@@ -62,6 +62,13 @@ p {
     background-image: url('./Images/barley.jpg');
 }
 
+.bg-contactpage {
+    background-image: url('./contactpageimages/contactbgcard.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F8F7F0;
+}
 
 .bg-olivestart {
     background-position: center;
