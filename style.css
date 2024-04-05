@@ -64,9 +64,9 @@ p {
 
 .bg-contactpage {
     background-image: url('./contactpageimages/contactbgcard.png');
-    background-position: center;
+    background-position: 0 250px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: #F8F7F0;
 }
 
