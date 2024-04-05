@@ -54,6 +54,12 @@ p {
     background-size: cover;
     background-image: url('./Images/applee.png');
 }
+.bg-tomatoourshop {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./ourshoptomatoimagess/tomatobgmain.jpg');
+}
 
 .bg-barley {
     background-position: center;
