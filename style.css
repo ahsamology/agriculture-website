@@ -90,3 +90,9 @@ p {
     background-image: url('./servicespageimg/wheatfield.jpg');
 }
 
+.price-range input[type=range]::-webkit-slider-thumb {
+  pointer-events: all;
+  width: 24px;
+  height: 24px;
+  -webkit-appearance: none;
+}
